@@ -63,7 +63,7 @@ foreach ($contact in $contacts) {
     $vcard = $vcard + "BEGIN:VCARD" + "`r`n"
     $vcard = $vcard + "VERSION:3.0" + "`r`n"
     $vcard = $vcard + "N:" + $contact."First name" + ";" + $contact."Last Name" + "`r`n"
-    $vcard = $vcard + "FN:" + $contact."First ame" + " " + $contact."Last Name" + "`r`n"
+    $vcard = $vcard + "FN:" + $contact."First name" + " " + $contact."Last Name" + "`r`n"
     $vcard = $vcard + "TEL:" + $contact."General phone" + "`r`n"
     $vcard = $vcard + "EMAIL:" + $contact."General email" + "`r`n"
     $vcard = $vcard + "END:VCARD" + "`r`n"
